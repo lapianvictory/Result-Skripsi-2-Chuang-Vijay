@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+}
+
+.background {
+    background-color: #194484;
+    width: 100%; 
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding does not increase the total width */
+}
+
+.header-navbar{
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.titlepage{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%; /* Set the table to take full width */
+    border-collapse: collapse; /* Merge border styles for a cleaner look */
+}
+
+th, td {
+    text-align: left; /* Align text to the left for better readability */
+    padding: 8px; /* Add some padding to table cells */
+}
+
+th {
+    background-color: #2a4d9e; /* Optional: Different background color for headers */
+    color: white; /* Ensure header text is readable */
+}
+
+td {
+    background-color: #f9f9f9; /* Optional: Light background for data cells */
+}
+
+tr:nth-child(even) td {
+    background-color: #e9e9e9; /* Alternate row color for better readability */
+}
+
+tr:hover {
+    background-color: #d1e0f2; /* Highlight row on hover */
+}
+
+.gambar{
+    height: 150px;
+    width: 150px;
+}
+
+.header-title{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-angka{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+}
+#entries{
+    width: 100%;
+}
+.input-search{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title{
+    color: white;
+}
+
+.fas{
+    color: white;
+}
